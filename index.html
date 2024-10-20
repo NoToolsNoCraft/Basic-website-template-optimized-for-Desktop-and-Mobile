@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sliderComponent.css">
+</head>
+<body>
+    <!-- Top Menu Bar -->
+<header class="top-menu">
+    <a href="index.html" class="website-name">Your Website Name</a>
+    <button class="hamburger" aria-label="Toggle Menu">
+        &#9776; <!-- This is the hamburger icon -->
+    </button>
+    
+    <!-- For Desktop -->
+    <nav class="menu-items desktop">
+        <a href="#">Label 1</a>
+        <a href="#">Label 2</a>
+        <a href="#">Label 3</a>
+    </nav>
+
+    <!-- For Mobile -->
+    <div class="dropdown menu-items mobile"> <!-- Wrapped the menu items -->
+        <a href="#">Label 1</a>
+        <a href="#">Label 2</a>
+        <a href="#">Label 3</a>
+    </div>
+</header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <section class="random-component">
+            <h2>Random Component</h2>
+            <p>This is a placeholder for any content you want to add here for better orientation.</p>
+        </section>
+    </main>
+
+    <section class="image-text-section">
+        <div class="image-container">
+            <img src="test-image.webp" alt="Image Description">
+        </div>
+        <div class="text-container">
+            <h2>Your Title Here</h2>
+            <p>
+                This is where you can add some descriptive text alongside the image. You can talk about anything here, such as an explanation of the image or any relevant information.
+            </p>
+        </div>
+    </section>
+
+    <section class="text-image-section">
+        <div class="text-container">
+            <h2>Your Title Here</h2>
+            <p>
+                This is the text that appears on the left side. You can add any relevant information here, which complements the image on the right.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="test-image.webp" alt="Image Description">
+        </div>
+    </section>
+
+    <section class="two-column-text">
+        <div class="left-column">
+            <h2>Left Column Title</h2>
+            <p>
+                This is the content for the left column. You can place any text here, including paragraphs, lists, or other textual information.
+            </p>
+        </div>
+        <div class="right-column">
+            <h2>Right Column Title</h2>
+            <p>
+                This is the content for the right column. Similarly, you can add anything that complements the content on the left.
+            </p>
+        </div>
+    </section>
+
+    <section class="three-column-section">
+        <div class="column">
+            <h3>Column 1</h3>
+            <p>This is the content for the first column. Add relevant information here.</p>
+        </div>
+        <div class="column">
+            <h3>Column 2</h3>
+            <p>This is the content for the second column. Add relevant information here.</p>
+        </div>
+        <div class="column">
+            <h3>Column 3</h3>
+            <p>This is the content for the third column. Add relevant information here.</p>
+        </div>
+    </section>
+
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <i class="slide-icon">📱</i>
+                <h3>Mobile Development</h3>
+                <p>Build cutting-edge mobile applications that run smoothly across all devices.</p>
+                <a href="#link-to-be-added" class="slide-button">Read More</a>
+            </div>
+            <div class="slide">
+                <i class="slide-icon">💻</i>
+                <h3>Web Development</h3>
+                <p>Create responsive websites with modern technologies for the best user experience.</p>
+                <a href="#link-to-be-added" class="slide-button">Read More</a>
+            </div>
+            <div class="slide">
+                <i class="slide-icon">🎮</i>
+                <h3>Game Development</h3>
+                <p>Design immersive 2D and 3D games for mobile, desktop, and consoles.</p>
+                <a href="#link-to-be-added" class="slide-button">Read More</a>
+            </div>
+            <div class="slide">
+                <i class="slide-icon">⚙️</i>
+                <h3>Automation</h3>
+                <p>Streamline your processes with custom automation tools and testing frameworks.</p>
+                <a href="#link-to-be-added" class="slide-button">Read More</a>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide" aria-label="Previous Slide">❮</button>
+            <button class="next-slide" aria-label="Next Slide">❯</button>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-item">
+            <a href="#link-to-be-added">Footer Label 1</a>
+        </div>
+        <div class="footer-item">
+            <a href="#link-to-be-added">Footer Label 2</a>
+        </div>
+        <div class="footer-item">
+            <a href="#link-to-be-added">Footer Label 3</a>
+        </div>
+    </footer>
+
+    <footer class="copyright">
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="/sliderComponent.js"></script>
+    <script src="/hamburgerMenu.js"></script>
+    
+</body>
+</html>
