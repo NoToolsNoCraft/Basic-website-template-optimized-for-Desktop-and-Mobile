@@ -287,6 +287,15 @@ body {
     .column {
         margin-bottom: 20px; /* Add space between columns */
     }
+
+     /* Stack Footer Items Vertically on Mobile */
+     .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-item {
+        font-size: 1.4em;
+    }
 }
 
 /* Copyright Section */
